@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SNAKE GAME</title>
+    <style>
+    	#gamegraphics{
+    		background-image: url("image/images1.jpg");
+    		border: 20px solid black;
+    		/*margin-left: auto;
+  			margin-right: auto;
+  			width: 50;
+  			display: block;*/
+    	}
+    	#cont{
+    		margin-top: 50px;
+    	}
+    </style>
+</head>
+<body>
+	<div class="row">
+		<div class="container" id="cont">
+			<div class="col s10">
+		    	<canvas id="gamegraphics"></canvas>
+		    	<script src="snake.js"></script>
+			</div>
+			<div class="col s2" style="margin-top: 100px">
+				<a class="waves-effect waves-light btn-large" href="javascript:location.reload(true)"><i class="material-icons left">replay</i>Restart</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
